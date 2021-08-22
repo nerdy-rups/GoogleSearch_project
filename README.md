@@ -3,5 +3,10 @@ This project is a small utility created to help with common places available in 
 
 Enter a search query and the program will try to search the same with "near me" appended and give out the results(place title and average rating) in an excel file. 
 
-Language: Python
+Progamming Language: Python
+
 Packages used: Selenium, time, openpyxl, pandas, pywin32
+
+Some known issues: 
+1. Capturing the total number of ratings available against the average rating is not appropriate. It does not have a full exact match with the place name or average rating.
+2. Inputs that do not retrieve any search result in the required format go into a loop that isn't properly tested. 
