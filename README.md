@@ -5,7 +5,7 @@ Enter a search query and the program will try to search the same with "near me" 
 
 Progamming Language: Python
 
-Packages used: Selenium, time, openpyxl, pandas, pywin32
+Packages used: Selenium, time, openpyxl, pandas, pywin32, os
 
 Some known issues: 
 1. Capturing the total number of ratings available against the average rating is not appropriate. It does not have a full exact match with the place name or average rating.
